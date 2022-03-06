@@ -4,7 +4,7 @@ This terraform project is used to setup lambda functions, s3 bucket, IAM roles a
 
 ## Automation plan
 
-![alt text](https://github.com/Balaji-SA/AWS-EC2-Patch-Automation/blob/master/images/OS-patch-automation-plan.jpeg?raw=true)
+![alt text](https://github.com/Balaji-SA/-AWS-EC2-Patch-Automation/blob/master/images/OS-patch-automation-plan.jpeg?raw=true)
 
 ## Prerequisite
 
@@ -22,7 +22,7 @@ This terraform project is used to setup lambda functions, s3 bucket, IAM roles a
 
 ## Step function state machine created by Terraform
 
-![alt text](https://github.com/Balaji-SA/AWS-EC2-Patch-Automation/blob/master/images/stepfunctions_graph.png?raw=true)
+![alt text](https://github.com/Balaji-SA/-AWS-EC2-Patch-Automation/blob/master/images/stepfunctions_graph.png?raw=true)
 
 
 
