@@ -1,0 +1,47 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ssm:SendCommand",
+                "ec2:DeregisterImage",
+                "ec2:DeleteSnapshot",
+                "ec2:DescribeInstances",
+                "ssm:ListCommands",
+                "ec2:DescribeInstanceAttribute",
+                "events:PutRule",
+                "logs:*",
+                "ec2:CreateImage",
+                "ssm:DescribeInstancePatches",
+                "lambda:InvokeAsync",
+                "ec2:DescribeSnapshots",
+                "ssm:GetParameter",
+                "ssm:DescribeInstancePatchStates",
+                "ec2:CreateSnapshot",
+                "ec2:ModifyInstanceAttribute",
+                "ec2:DescribeInstanceStatus",
+                "states:ListActivities",
+                "lambda:InvokeFunction",
+                "SNS:Publish",
+                "ec2:DescribeSnapshotAttribute",
+                "ec2:CreateTags",
+                "ec2:DescribeInstanceCreditSpecifications",
+                "ssm:GetCommandInvocation",
+                "ec2:DescribeImages",
+                "ssm:PutParameter",
+                "ec2:CreateSnapshots",
+                "ec2:DescribeImageAttribute",
+                "states:StartExecution",
+                "ssm:GetPatchBaseline"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::tf-os-patching-custom-patch-baselines"
+        }
+    ]
+}
